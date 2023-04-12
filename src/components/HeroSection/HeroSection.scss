@@ -1,0 +1,104 @@
+@import "../../variables.scss";
+
+
+.vectors-bg{
+   position: fixed;
+   z-index: -1;
+}
+
+.v4 {
+   position: absolute;
+   width: 238.07px;
+   height: 561px;
+   left: 2.5px;
+   top: 274px;
+}
+
+.v3 {
+   position: absolute;
+   width: 735.03px;
+   height: 419.32px;
+   left: 707.47px;
+   top: 419.18px;
+}
+
+.v2 {
+   position: absolute;
+   width: 377px;
+   height: 845px;
+   left: 929px;
+   top: 0px;
+}
+
+.v1 {
+   position: absolute;
+   width: 414px;
+   height: 669px;
+   left: 1023px;
+   top: 170px;
+}
+
+.hero-section{
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   width: 100%;
+   padding-top: 250px;
+}
+
+.mask {
+   position: absolute;
+   width: 490px;
+   height: 426px;
+   right: 84px;
+   top: 200px;
+   border-radius: 100px 100px 100px 240px;
+   box-shadow:rgba(0, 0, 0, 0.9) 0px 8px 24px;
+}
+
+.hs-text {
+   display: flex;
+   flex-direction: column;
+   width: 460px;
+   height: 56px;
+}
+
+.hs-links {
+   display: flex;
+   flex-direction: row;   
+   align-items: center;
+   justify-content: space-between;
+   width: 456px;
+   margin-top: 190px;
+}
+.arrow {
+   width: 100px;
+   height: 100px;
+   margin-left: 10px;
+}
+.violet-text {
+   background: $violetText;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   font-size: 46px;
+}
+.hero-section p {
+   font-weight: 400;
+   font-size: 16px;
+   padding-top: 36px;
+   padding-bottom: 60px;
+}
+
+.hero-section h1 {
+   font-weight: 700;
+   font-size: 40px;
+}
+
+@media screen and (max-width:1240px){
+   .hero-section h1 {
+      font-weight: 700;
+      font-size: 36px;
+   }
+
+}

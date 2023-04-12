@@ -16,7 +16,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   background: #302C42;
 }
 
@@ -29,9 +28,10 @@ a{
 }
 
 .btn {
+
   padding: 18px 36px;
   font-size: 12;
-  width: 154px;
+  max-width: 154px;
   height: 48px;
   background: transparent;
   color: #fff;
@@ -42,12 +42,25 @@ a{
 .btn-full {
   padding: 18px 36px;
   font-size: 12;
-  width: 154px;
+  max-width: 154px;
   height: 48px;
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
   color: #343045;
   border-radius: 40px;
 }
+
+.btn-full-large {
+  padding: 18px 36px;
+  font-weight: 700;
+  font-size: 12px;
+  max-width: 214px;
+  height: 48px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  color: #343045;
+  border-radius: 40px;
+  border: none;
+}
+
 
 // code {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
