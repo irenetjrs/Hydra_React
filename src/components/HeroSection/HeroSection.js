@@ -12,15 +12,9 @@ import { Link } from 'react-router-dom'
 const HeroSection = () => {
    return (
       <div className='homepage'>
-         <div className='vectors-bg'>
-            <img className='v4' src={Vector4} alt='4'/>
-            <img className='v3' src={Vector3} alt='3' />
-            <img className='v2' src={Vector2} alt='2' />
-            <img className='v1' src={Vector1} alt='1' />
-            <img className='mask' src={MaskGroup} alt='mask-group'></img>
-         </div>
          <div className='hero-section'>
             <div className='hs-text'>
+            <img className='v4' src={Vector4} alt='4'/>
                <h1>
                   <span className='violet-text'>Dive </span>
                   <span>Into The Depths <br/> Of </span>
@@ -41,6 +35,13 @@ const HeroSection = () => {
                </Link>
             </div>
          </div>
+                  <div className='vectors-bg'>
+            <img className='v3' src={Vector3} alt='3' />
+            <img className='v2' src={Vector2} alt='2' />
+            <img className='v1' src={Vector1} alt='1' />
+            <img className='mask' src={MaskGroup} alt='mask-group'></img>
+         </div>
+
       </div>
    )
 }
