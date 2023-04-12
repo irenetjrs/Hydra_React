@@ -11,8 +11,8 @@ const Navbar = () => {
 
       return (
       <div className='header'>
-            <div className='logo'>
-                  <Link to='/'>
+            <div>
+                  <Link className='logo' to='/'>
                         <img src={Logo} alt='logo'/>
                         <img src={Brand} alt='hydra-brand' />
                   </Link>

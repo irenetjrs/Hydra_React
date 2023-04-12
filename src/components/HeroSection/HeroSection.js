@@ -11,12 +11,13 @@ import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
    return (
-      <div>
+      <div className='homepage'>
          <div className='vectors-bg'>
             <img className='v4' src={Vector4} alt='4'/>
             <img className='v3' src={Vector3} alt='3' />
             <img className='v2' src={Vector2} alt='2' />
             <img className='v1' src={Vector1} alt='1' />
+            <img className='mask' src={MaskGroup} alt='mask-group'></img>
          </div>
          <div className='hero-section'>
             <div className='hs-text'>
@@ -39,7 +40,6 @@ const HeroSection = () => {
                   <img className='arrow' src={Arrow} alt='arrow'></img>
                </Link>
             </div>
-            <img className='mask' src={MaskGroup} alt='mask-group'></img>
          </div>
       </div>
    )
