@@ -1,0 +1,95 @@
+@import "../../variables.scss";
+
+.v-18{
+   z-index: -1;
+   position: absolute;
+   width: 1437px;
+   height: 263.99px;
+   left: 2.5px;
+   top: 865px;
+}
+
+.v-19{
+   z-index: -1;
+   position: absolute;
+   width: 1435px;
+   height: 363px;
+   left: 4.5px;
+   top: 886px;
+}
+
+.footer {
+   width: 100%;
+}
+
+.f-section {
+   width: 100%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   z-index: 10;
+   justify-content: space-around;
+}
+
+.f-logo {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.f-menu {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-weight: 700;
+   font-size: 16px;
+   color: #FFFFFF;
+}
+
+.f-faq {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-weight: 700;
+   font-size: 16px;
+   color: #FFFFFF;
+}
+.f-socials{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-weight: 700;
+   font-size: 16px;
+   color: #FFFFFF;
+}
+
+.f-rights {
+   font-weight: 700;
+   font-size: 14px;
+   letter-spacing: 0.13em;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.f-medias {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+@media screen and (max-width: 1240px){
+   .f-menu {
+      display: none;
+   }
+   .f-faq {
+      display: none;
+   }
+   .f-section img {
+      display: none;
+   }
+   .f-section {
+      display: flex;
+      flex-direction: column;
+   }
+
+}

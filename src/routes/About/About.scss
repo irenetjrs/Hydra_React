@@ -1,0 +1,92 @@
+@import "../../variables.scss";
+
+
+.about-section {
+   display: flex;
+   flex-direction: row;
+   gap: 100px;
+   padding-top: 140px;
+   padding-bottom: 100px;
+   z-index: 10;
+   width: 100%
+}
+
+.v-8 {
+   position: absolute;
+   width: 1445px;
+   height: 211.75px;
+   left: -4.5px;
+   top: 553.82px;
+   z-index: -1;
+}
+.v-7 {
+   position: absolute;
+   width: 1449px;
+   height: 256.68px;
+   left: -6.5px;
+   top: 268.32px;
+   z-index: -1;
+}
+
+.about-section h2 {
+   font-weight: 700;
+   font-size: 36px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.about-section h3 {
+   font-weight: 300;
+   font-size: 36px;
+   color: #fff;
+}
+
+.as-header{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   height: 50px;
+}
+
+.as-right h2 {
+   margin-top: 150px;
+   margin-bottom: 5px;
+}
+
+.as-right h3 {
+   margin-bottom: 40px;
+}
+
+.as-right button {
+   margin-top: 30px;
+}
+
+@media screen and (max-width: 1240px){
+   .about-section {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 140px;
+      align-items: center;
+   }
+
+   .as-none {
+      display: none;
+   }
+   
+   .as-mask {
+      width: 336.79px;
+      height: 358px;
+   }
+
+   .as-right p {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+
+   .as-right button {
+      margin-left: 20%;      
+      margin-top: 35px;
+   }
+
+}

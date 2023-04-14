@@ -29,7 +29,6 @@ a{
 
 .home-section {
   padding: 50px 84px 50px 84px;
-
 }
 
 .btn {
@@ -65,6 +64,11 @@ a{
   border: none;
 }
 
+@media screen and (max-width: 1240px){
+  .home-section {
+    padding: 5px 5px 5px 5px;
+  }
+}
 
 // code {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
