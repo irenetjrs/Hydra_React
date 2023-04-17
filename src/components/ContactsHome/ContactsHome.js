@@ -14,9 +14,7 @@ const ContactsHome = () => {
       <div className="contacts-home">
       <Swiper
       modules={Navigation}
-      spaceBetween={10}
-      slidesPerView={3}
-      navigation
+      navigation={true}
       breakpoints={{
          340: {
             width: 200,

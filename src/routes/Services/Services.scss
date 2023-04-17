@@ -1,0 +1,66 @@
+@import "../../variables.scss";
+
+
+.services-section {
+   display: flex;
+   flex-direction: column;
+   gap: 100px;
+   padding-top: 140px;
+   padding-bottom: 100px;
+   z-index: 10;
+   width: 100%
+}
+
+.ss-text {
+   display: flex;
+   flex-direction: row;
+   gap: 115px;
+
+
+}
+
+.services-section h2 {
+   font-weight: 700;
+   font-size: 36px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.services-section h3 {
+   font-weight: 300;
+   font-size: 36px;
+   color: #fff;
+}
+
+.ss-header{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   height: 50px;
+}
+
+.v-14 {
+   position: absolute;
+width: 1442px;
+height: 814px;
+left: -3px;
+top: 2187px;
+}
+
+.ss-swiper {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.box {
+   width: 310px;
+   height: 511px;
+   background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+   border-radius: 40px;
+}
+
+.box h3 {
+   font-weight: 700;
+   font-size: 24px;
+}
