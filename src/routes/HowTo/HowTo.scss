@@ -1,0 +1,71 @@
+@import "../../variables.scss";
+
+
+.howto-section {
+   display: flex;
+   flex-direction: column;
+   gap: 100px;
+   padding-top: 140px;
+   padding-bottom: 100px;
+   z-index: 10;
+   width: 100%
+}
+
+.ht-text {
+   display: flex;
+   flex-direction: row;
+   gap: 115px;
+}
+
+.howto-section h2 {
+   font-weight: 700;
+   font-size: 36px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.howto-section h3 {
+   font-weight: 300;
+   font-size: 36px;
+   color: #fff;
+}
+
+.ht-header{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   height: 50px;
+   margin-bottom: 120px;
+}
+
+.ht-vector {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: -300px;
+}
+
+.v-15 {
+   width: 1449px;
+   height: 163px;
+   margin-left: -200px;
+}
+
+.ht-1 {
+   width: 198px;
+   height: 198px;
+   background: rgba(13, 13, 13, 0.32);
+   border-radius: 50%;
+}
+
+.small-circle {
+   width: 159px;
+   height: 159px;
+   margin: 20px;
+   font-weight: 700;
+   font-size: 64px;
+   color: #343045;
+   text-align: center;
+   line-height: 150px;
+}

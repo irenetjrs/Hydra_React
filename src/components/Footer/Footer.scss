@@ -20,6 +20,8 @@
 
 .footer {
    width: 100%;
+   position: fixed;
+   bottom: 0;
 }
 
 .f-section {
@@ -90,6 +92,7 @@
    .f-section {
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
    }
 
 }

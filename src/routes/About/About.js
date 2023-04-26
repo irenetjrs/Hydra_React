@@ -1,7 +1,5 @@
 import React from 'react'
 import '../About/About.scss'
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
 import Vector7 from '../../assets/Vector 7.svg'
 import Vector8 from '../../assets/Vector 8.svg'
 import ASMask from '../../assets/About_Mask group.svg'
@@ -9,8 +7,7 @@ import LargeArrow from '../../assets/Component 1.svg'
 
 const About = () => {
    return (
-      <div className='home-section'>
-         <Navbar/>
+      <div className='main-section'>
          <div className='about-section'>
             <img className='v-8' src={Vector8} alt='/'/>
             <img className='v-7' src={Vector7} alt='/'/>
@@ -43,7 +40,6 @@ const About = () => {
                <button className='btn-full-large'>LET’S GET IN TOUCH</button>
             </div>
          </div>
-         <Footer/>
       </div>
    )
 }

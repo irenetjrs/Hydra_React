@@ -43,7 +43,7 @@ const Footer = () => {
                   <Link to='/Process'>HOW TO</Link>
             </li>
             <li>
-                  <Link to='/JoinHydra'>JOIN HYDRA</Link>
+                  <Link to='/Join'>JOIN HYDRA</Link>
             </li>
          </ul>
          </div>

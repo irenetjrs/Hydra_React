@@ -1,7 +1,5 @@
 import React from 'react'
 import '../Services/Services.scss'
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
 import Vector14 from '../../assets/Vector 14.svg'
 import Vector11 from '../../assets/Vector 11.svg'
 import LargeArrow from '../../assets/Component 1.svg'
@@ -19,8 +17,7 @@ import image4 from '../../assets/slider-img/image4.svg';
 
 const Services = () => {
 return (
-   <div className='home-section'>
-      <Navbar/>
+   <div className='main-section'>
       <div className='services-section'>
       <div className='ss-text'>
          <img className='v-14' src={Vector14} alt='/'/>
@@ -104,7 +101,6 @@ return (
             </Swiper>
       </div>
       </div>
-      <Footer/>
    </div>
    
 )
