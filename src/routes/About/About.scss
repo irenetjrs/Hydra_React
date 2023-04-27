@@ -1,5 +1,4 @@
 @import "../../variables.scss";
-@import '../../mixins.scss';
 
 .about-section {
    display: flex;
@@ -9,15 +8,6 @@
    padding-bottom: 100px;
    z-index: 10;
    width: 100%;
-   // @include mobile{
-   //    .about-section {
-   //       display: flex;
-   //       flex-direction: column;
-   //       gap: 30px;
-   //       padding-top: 140px;
-   //       align-items: center;
-   //    }
-   // }
 }
 
 .v-8 {
@@ -71,7 +61,13 @@
 }
 
 @media screen and (max-width: 1240px){
-
+   .about-section {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 140px;
+      align-items: center;
+   }
 
    .as-none {
       display: none;

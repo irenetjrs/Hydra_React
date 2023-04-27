@@ -9,7 +9,6 @@ import Services from "./routes/Services/Services";
 import Tech from "./routes/Tech/Tech";
 import HowTo from "./routes/HowTo/HowTo";
 import Join from "./routes/Join/Join";
-// import Navbar from "./components/Navbar/Navbar";
 
 
 const App  = () => {

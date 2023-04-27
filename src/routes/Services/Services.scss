@@ -15,8 +15,6 @@
    display: flex;
    flex-direction: row;
    gap: 115px;
-
-
 }
 
 .services-section h2 {
@@ -47,20 +45,3 @@ left: -3px;
 top: 2187px;
 }
 
-.ss-swiper {
-   display: flex;
-   flex-direction: row;
-   gap: 10px;
-}
-
-.box {
-   width: 310px;
-   height: 511px;
-   background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
-   border-radius: 40px;
-}
-
-.box h3 {
-   font-weight: 700;
-   font-size: 24px;
-}
