@@ -111,4 +111,10 @@
    font-weight: 400;
    font-size: 14px;
    }
+   .join-section button {
+      position: absolute;
+      bottom: 3%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
 }

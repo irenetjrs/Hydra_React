@@ -17,17 +17,14 @@ import Pinterest from '../../assets/pinterest.svg'
 
 const Footer = () => {
    return (
-   <div className='footer'>
-
+   <footer className='footer'>
       <div className='f-section'>
-      <img className='v-18' src={Vector18} alt='/'/>
-      <img className='v-19' src={Vector19} alt='/'/>
          <div className='f-logo'>
          <Link className='logo' to='/'>
             <img src={Logo} alt='logo'/>
          </Link>
          </div>
-         <img src={Vector20} alt='/'/>
+         <img className='v-20'src={Vector20} alt='/'/>
          <div className='f-menu'>
          <ul>
             <li>
@@ -47,7 +44,7 @@ const Footer = () => {
             </li>
          </ul>
          </div>
-         <img src={Vector20} alt='/'/>
+         <img className='v-20' src={Vector20} alt='/'/>
          <div className='f-faq'>
             <ul>
                <li>F.A.Q</li>
@@ -56,7 +53,7 @@ const Footer = () => {
                <li>LICENSES</li>
             </ul>
          </div>
-         <img src={Vector20} alt='/'/>
+         <img className='v-20' src={Vector20} alt='/'/>
          <div className='f-socials'>
             <div>SOCIALIZE WITH HYDRA</div>
             <div className='f-medias'>
@@ -80,15 +77,17 @@ const Footer = () => {
                </Link>
                </div>
                <Link to='/services'>
-                  <button className='btn-full-large'>BUILD YOUR WORLD</button>
+                  <button className='btn-full-large f-button'>BUILD YOUR WORLD</button>
                </Link>
          </div>
       </div>
       <div className='f-rights'>
-         <img src={Vector17} alt='/'/>
-         2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED
+         <img className='v-17' src={Vector17} alt='/'/>
+         <p>2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED</p>
       </div>
-   </div>
+      <img className='v-18' src={Vector18} alt='/'/>
+      <img className='v-19' src={Vector19} alt='/'/>
+   </footer>
 )
 }
 

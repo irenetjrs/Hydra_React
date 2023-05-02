@@ -36,7 +36,8 @@ export default function App() {
           <div className="ch-item">
             <h2 className="ch-item-header">Pay Us a Visit</h2>
             <p className="ch-item-text">
-              Union St, Seattle, WA 98101, United States
+              Union St, Seattle, 
+              WA 98101, United States
             </p>
           </div>
         </SwiperSlide>
