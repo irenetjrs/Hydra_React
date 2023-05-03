@@ -2,7 +2,12 @@ import React from 'react'
 import '../HowTo/HowTo.scss'
 import LargeArrow from '../../assets/Component 1.svg'
 import Vector15 from '../../assets/Vector 15.svg'
-// import SmallArrow from '../../assets/'
+import SmallArrow from '../../assets/outline/arrow-small-right.svg'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
+
 
 const HowTo = () => {
    return (
@@ -10,7 +15,7 @@ const HowTo = () => {
       <div className='howto-section'>
       <div className='ht-text'>
          <div className='ht-left'>
-            <h2>WHY BUILD</h2>
+            <h2 className='display'>HOW WE BUILD</h2>
             <div className='ht-header'>
                <h3>WITH HYDRA?</h3>
                <img className='ht-none' src={LargeArrow} alt='arrow'></img>
@@ -25,28 +30,90 @@ const HowTo = () => {
          </div>
       </div>
          <img className='v-15' src={Vector15} alt='/'></img>
-      <div className='ht-vector'>
-         <div className='ht-1'>
-            <div className='small-circle'>
-            <span>1</span>
+      <div> 
+         <Swiper 
+         className='ht-vector'
+         navigation={true} 
+         modules={[Navigation]}
+         breakpoints={{
+         768: {
+            slidesPerView: 1,
+            width: 768,
+         },
+         1040: {
+            slidesPerView: 4,
+            width: 1040,
+         },
+         }}
+         >
+         <SwiperSlide>
+            <div className='ht-card'>
+               <div className='ht-1'>
+                  <div className='ht-small-circle'>
+                     <span>1</span>
+                  </div>
+                  <div className='ht-card-desc'>
+                     <img src={SmallArrow} alt='/'></img>
+                     <p>
+                     3D Conception<br/>
+                     & Design
+                     </p>
+                  </div>
+               </div>
             </div>
-
-         </div>
-         <div className='ht-1'>
-            <div className='small-circle'>
-            2
+         </SwiperSlide>
+         <SwiperSlide>
+            <div className='ht-card'>
+               <div className='ht-1'>
+                  <div className='ht-small-circle'>
+                     <span>2</span>
+                  </div>
+                  <div className='ht-card-desc'>
+                     <img src={SmallArrow} alt='/'></img>
+                     <p>
+                     Interaction
+                     <br/>
+                     Design
+                     </p>
+                  </div>
+               </div>
             </div>
-         </div>
-         <div className='ht-1'>
-            <div className='small-circle'>
-            3
+         </SwiperSlide> 
+         <SwiperSlide>
+            <div className='ht-card'>
+               <div className='ht-1'>
+                  <div className='ht-small-circle'>
+                     <span>3</span>
+                  </div>
+                  <div className='ht-card-desc'>
+                  <img src={SmallArrow} alt='/'></img>
+                     <p>
+                     VR World
+                     <br/>
+                     User Testing
+                     </p>
+                  </div>
+               </div>
             </div>
-         </div>
-         <div className='ht-1'>
-            <div className='small-circle'>
-            4
+         </SwiperSlide>         
+         <SwiperSlide>
+            <div className='ht-card'>
+               <div className='ht-1'>
+                  <div className='ht-small-circle'>
+                     <span>4</span>
+                  </div>
+                  <div className='ht-card-desc'>
+                  <img src={SmallArrow} alt='/'></img>
+                     <p>
+                     Hydra VR
+                     <br/>
+                     Deploy
+                     </p>
+                  </div>
+               </div>
             </div>
-         </div>
+         </SwiperSlide>
+      </Swiper>
       </div>
       </div>
    </div>

@@ -2,10 +2,11 @@ import React from 'react'
 import '../Tech/Tech.scss'
 import TSbackground from '../../assets/Tech_mask.svg'
 import TSArrow from '../../assets/fake-button/outline/chevron-small-down.svg'
+import TechSlider from '../../components/TechSlider/TechSlider'
 
 const Tech = () => {
    return (
-      <div className='home-section'>
+      <div className='main-section'>
          <div className='tech-section'>
             <div className='ts-upper'>
                <div className='ts-header' style={{backgroundImage: `url(${TSbackground})`}}>
@@ -20,6 +21,8 @@ const Tech = () => {
                   </div>
                </div>
          </div>
+         <div className='ts-swiper'><TechSlider/></div>
+         
          </div>
       </div>
    )

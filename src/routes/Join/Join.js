@@ -21,7 +21,7 @@ const Join = () => {
                </div>
                <input type='text' name='Subject' placeholder='Subject' className='js-input-subject'></input>
                <textarea name='textarea' placeholder='Tell Us Something...' className='js-input-textarea'></textarea>
-               <button type='submit' className='btn-full-large'>SEND TO HYDRA</button>
+               <button type='submit' className='btn-full-large button-hover'>SEND TO HYDRA</button>
             </form>
          </div>
       </div>

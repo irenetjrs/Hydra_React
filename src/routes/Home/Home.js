@@ -29,7 +29,7 @@ const Home = () => {
             </p>
             <div>
                <Link className='hs-links' to='/services'>
-                  <button className='btn-full-large'>BUILD YOUR WORLD</button>
+                  <button className='btn-full-large button-hover'>BUILD YOUR WORLD</button>
                   <img className='arrow' src={Arrow} alt='arrow'></img>
                </Link>
             </div>        

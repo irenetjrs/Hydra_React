@@ -43,7 +43,7 @@ export default function App() {
                   nunc. Viverra aliquet  porttitor rhoncus 
                   libero justo laoreet sit amet vitae.
                </p>
-               <button className='btn-full-large'>TRY IT NOW</button>
+               <button className='btn-full-large button-hover'>TRY IT NOW</button>
             </div>
          </SwiperSlide>
          <SwiperSlide>
@@ -58,7 +58,7 @@ export default function App() {
                   nunc. Viverra aliquet  porttitor rhoncus 
                   libero justo laoreet sit amet vitae.
                </p>
-               <button className='btn-full-large'>TRY IT NOW</button>
+               <button className='btn-full-large button-hover'>TRY IT NOW</button>
             </div>
          </SwiperSlide>
          <SwiperSlide>
@@ -73,7 +73,7 @@ export default function App() {
                   nunc. Viverra aliquet  porttitor rhoncus 
                   libero justo laoreet sit amet vitae.
                </p>
-               <button className='btn-full-large'>TRY IT NOW</button>
+               <button className='btn-full-large button-hover'>TRY IT NOW</button>
             </div>
          </SwiperSlide>
          <SwiperSlide>
@@ -88,7 +88,7 @@ export default function App() {
                   nunc. Viverra aliquet  porttitor rhoncus 
                   libero justo laoreet sit amet vitae.
                </p>
-               <button className='btn-full-large'>TRY IT NOW</button>
+               <button className='btn-full-large button-hover'>TRY IT NOW</button>
             </div>
          </SwiperSlide>
       </Swiper>

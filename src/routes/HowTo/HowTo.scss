@@ -17,7 +17,8 @@
    gap: 115px;
 }
 
-.howto-section h2 {
+.display{
+   display: flex;
    font-weight: 700;
    font-size: 36px;
    color: #fff;
@@ -42,8 +43,9 @@
    width: 100%;
    display: flex;
    flex-direction: row;
-   justify-content: space-around;
+   justify-content: space-between;
    margin-top: -300px;
+   margin-left: 15px;
 }
 
 .v-15 {
@@ -59,13 +61,64 @@
    border-radius: 50%;
 }
 
-.small-circle {
+.ht-small-circle {
    width: 159px;
    height: 159px;
    margin: 20px;
    font-weight: 700;
    font-size: 64px;
-   color: #343045;
+   background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);;
    text-align: center;
    line-height: 150px;
+   border-radius: 50%;
+}
+
+.ht-card{
+   width: 400px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+
+}
+.ht-card-desc{
+   display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+   img{
+      width: 65px;
+      height: 65px;
+      margin-top: -15px;
+   }
+   p{
+      font-weight: 700;
+      font-size: 24px;
+      width: 157px;
+   }
+}
+
+@media screen and (max-width: 1240px){
+   .ht-text{
+      flex-direction: column;
+      align-items: center;
+   }
+   .ht-vector{
+      margin-top: -300px;
+      max-width: 100%;
+   }
+   .ht-card {
+
+      margin-left: 30%;
+      height: 400px;
+   }
+   .swiper-button-next, .swiper-button-prev{
+      color: #433D60;
+      border: 3px solid rgba(14, 14, 14, 0.32);
+      background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);      
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+   }
+   .v-15, .ht-none {
+      display: none;
+   }
 }

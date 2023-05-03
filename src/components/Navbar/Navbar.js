@@ -13,7 +13,7 @@ return (
 <div className='header'>
       <div>
             <Link className='logo' to='/'>
-                  <img src={Logo} alt='logo'/>
+                  <img className='rotate'src={Logo} alt='logo'/>
                   <img src={Brand} alt='hydra-brand' />
             </Link>
       </div>
@@ -31,10 +31,10 @@ return (
             <Link to='/HowTo'>HOW TO</Link>
       </li>
       <li>
-            <Link to='/ContactUs' className='btn'>CONTACT US</Link>
+            <Link to='/' className='btn'>CONTACT US</Link>
       </li>
       <li>
-            <Link to='/Join' className='btn-full'>JOIN HYDRA</Link>
+            <Link to='/Join' className='btn-full button-hover'>JOIN HYDRA</Link>
       </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>

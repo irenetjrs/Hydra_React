@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
+@import '../src/variables.scss';
 *{
   box-sizing: border-box;
   margin: 0;
@@ -82,13 +83,10 @@ a{
   border: none;
 }
 
-// @media screen and (max-width: 1240px){
-//   .home-section {
-//     padding: 5px 5px 5px 5px;
-//   }
-// }
-
-// code {
-//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-//     monospace;
-// }
+.button-hover{
+  transition: all 150ms ease-in-out;
+ 
+  &:hover {
+    box-shadow: 0 0 10px 0 $button-hover inset, 0 0 10px 4px $button-hover;
+  }
+}

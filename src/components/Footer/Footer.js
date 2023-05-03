@@ -21,7 +21,7 @@ const Footer = () => {
       <div className='f-section'>
          <div className='f-logo'>
          <Link className='logo' to='/'>
-            <img src={Logo} alt='logo'/>
+            <img className='rotate' src={Logo} alt='logo'/>
          </Link>
          </div>
          <img className='v-20'src={Vector20} alt='/'/>
@@ -57,27 +57,27 @@ const Footer = () => {
          <div className='f-socials'>
             <div>SOCIALIZE WITH HYDRA</div>
             <div className='f-medias'>
-               <Link to='https://uk-ua.facebook.com'>
+               <Link className='shake' to='https://uk-ua.facebook.com'>
                   <img src={Facebook} alt='/'/>
                </Link>
-               <Link to='https://twitter.com'>
+               <Link className='shake' to='https://twitter.com'>
                   <img src={Twitter} alt='/'/>
                </Link>
-               <Link to='https://www.linkedin.com'>
+               <Link className='shake' to='https://www.linkedin.com'>
                   <img src={Linkedin} alt='/'/>
                </Link>
-               <Link to='https://www.youtube.com'>
+               <Link className='shake' to='https://www.youtube.com'>
                   <img src={Youtube} alt='/'/>
                </Link>
-               <Link to='https://www.instagram.com'>
+               <Link className='shake' to='https://www.instagram.com'>
                   <img src={Instagram} alt='/'/>
                </Link>
-               <Link to='https://www.pinterest.com'>
+               <Link className='shake' to='https://www.pinterest.com'>
                   <img src={Pinterest} alt='/'/>
                </Link>
                </div>
                <Link to='/services'>
-                  <button className='btn-full-large f-button'>BUILD YOUR WORLD</button>
+                  <button className='btn-full-large f-button button-hover'>BUILD YOUR WORLD</button>
                </Link>
          </div>
       </div>

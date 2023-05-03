@@ -37,7 +37,7 @@ const About = () => {
                   retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
                   n tempor.
                </p>
-               <button className='btn-full-large'>LET’S GET IN TOUCH</button>
+               <button className='btn-full-large button-hover'>LET’S GET IN TOUCH</button>
             </div>
          </div>
       </div>

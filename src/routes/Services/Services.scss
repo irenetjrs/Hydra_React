@@ -39,9 +39,27 @@
 
 .v-14 {
    position: absolute;
-width: 1442px;
-height: 814px;
-left: -3px;
-top: 2187px;
+   width: 1442px;
+   height: 814px;
+   left: -3px;
+   top: 187px;
 }
 
+@media screen and (max-width: 1240px){
+
+   .ss-none{
+      display: none;
+   }
+   .services-section{
+      align-items: center;
+      text-align: center;
+      gap: 50px;
+   }
+   .ss-h2 {
+      margin-left: 70px;
+
+   }
+   .ss-header {
+      margin-left: 60px;
+   }
+}

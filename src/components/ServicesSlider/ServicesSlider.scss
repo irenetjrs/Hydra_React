@@ -1,13 +1,15 @@
 
 .ss-swiper{
-   max-width: 1200px;
+   max-width: 100%;
+
 }
+
 .box {
    display: flex;
    flex-direction: column;
    align-items: center;
-   width: 310px;
    height: 511px;
+   margin-left: 10px;
    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
    border-radius: 40px;
 }
@@ -20,6 +22,7 @@
 }
 .box p {
    text-align: center;
+   margin: 3px;
 }
 
 .ssbox-bg {
@@ -39,8 +42,8 @@
    }
 }
 .btn-full-large {
-   width: 250px;
-   margin-top: 30px;
+   width: 230px;
+   margin-top: 10px;
 }
 
 .ss-h2 {

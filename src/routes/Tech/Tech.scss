@@ -5,7 +5,7 @@
    padding-top: 140px;
    padding-bottom: 100px;
    z-index: 10;
-   width: 100%
+   width: 100%;
 }
 
 .tech-section h2 {
@@ -26,7 +26,7 @@
 .ts-header {
    position: relative;
    margin: 0 auto;
-   max-width: 1278px;
+   max-width: 100%;
    height: 303px;
    border-radius: 160px;
 }
@@ -60,21 +60,17 @@
    height: 60px;
 }
 
-.ts-lower {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+.ts-swiper{
+   width: 100%;
 }
+
 
 @media screen and (max-width: 1240px){
-.tech-section {
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-   padding-top: 140px;
-   align-items: center;
+.ts-header{
+   background-size: cover;
+   border-radius: 40px;
+   height: 160px;
 }
-
 .fake-button {
 display: none;
 }
